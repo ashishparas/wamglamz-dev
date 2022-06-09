@@ -81,6 +81,16 @@ class UsersController extends Controller {
         return view('admin.report-management',compact('contact_us'));
     }
 
+
+
+    public function WeddingPackage(){
+        return view('wedding-package');
+    }
+
+    public function AddWeddingPackage(){
+        return view('add-wedding-plan');
+    }
+
    
 
 }

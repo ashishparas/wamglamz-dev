@@ -5,14 +5,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="{{asset('public/website/css/bootstrap.min.css')}}">
+	<link rel="stylesheet" href="{{asset('website/css/bootstrap.min.css')}}">
 	<!-- style CSS -->
-	<link rel="stylesheet" href="{{asset('public/website/css/style.css')}}">  
-	<link rel="stylesheet" href="{{asset('public/website/css/responsive.css')}}">  
+	<link rel="stylesheet" href="{{asset('website/css/style.css')}}">  
+	<link rel="stylesheet" href="{{asset('website/css/responsive.css')}}">  
 
   <!--owl-slider-->
-  <link rel="stylesheet" href="{{asset('public/website/css/owl.carousel.min.css')}}"/>
-  <link rel="stylesheet" href="{{asset('public/website/css/owl.theme.default.min.css')}}"/>
+  <link rel="stylesheet" href="{{asset('website/css/owl.carousel.min.css')}}"/>
+  <link rel="stylesheet" href="{{asset('website/css/owl.theme.default.min.css')}}"/>
 	<title>{{ config("app.name") }}</title>
   </head>
   <body>
@@ -22,7 +22,7 @@
             <!--navbar-->
             <nav class="navbar navbar-expand-lg navbar-light  ">
               <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="{{asset('public/website/img/ht-logo.png')}}" alt="icon"></a>
+                <a class="navbar-brand" href="#"><img src="{{asset('website/img/ht-logo.png')}}" alt="icon"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -57,14 +57,14 @@
                       <h1>WamGlamz – Your Beauty Salon In Your Pocket!</h1>
                       <p>The Ultimate Beauty Solution. Book Your Appointment when you want, from where you want, with whom you want! Download it, and get glamorous!</p>
                       <div class="play_store_btns">
-                        <a  class="google_store d-inline-block me-3" href="https://apps.apple.com/ca/app/wamglamz/id1613316234"><img src="{{asset('public/website/img/apple-store.png')}}" alt="buttons"/></a>
-                        <a  class="apple_store d-inline-block" href="https://play.google.com/store/apps/details?id=com.wamglamz"><img src="{{asset('public/website/img/google-store.png')}}" alt="buttons"/></a>
+                        <a  class="google_store d-inline-block me-3" href="https://apps.apple.com/ca/app/wamglamz/id1613316234"><img src="{{asset('website/img/apple-store.png')}}" alt="buttons"/></a>
+                        <a  class="apple_store d-inline-block" href="https://play.google.com/store/apps/details?id=com.wamglamz"><img src="{{asset('website/img/google-store.png')}}" alt="buttons"/></a>
                       </div> 
                     </div>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="banner_img">
-                      <img class="w-100" src="{{asset('public/website/img/banner-img.png')}}" alt="image" />
+                      <img class="w-100" src="{{asset('website/img/banner-img.png')}}" alt="image" />
                     </div>
                   </div>
                 </div>
@@ -87,21 +87,21 @@
             <div class="row">
               <div class="col-md-4 col-lg-4 col-sm-12">
                 <div class="feature_box text-center">
-                  <img src="{{asset('public/website/img/feature1.png')}}" alt="image" />
+                  <img src="{{asset('website/img/feature1.png')}}" alt="image" />
                   <h4>Search Around You</h4>
                   <p>Our state of the art system suggests makeup artist listing based on zip code</p>
                 </div>
               </div>
               <div class="col-md-4 col-lg-4 col-sm-12">
                 <div class="feature_box text-center">
-                  <img src="{{asset('public/website/img/feature2.png')}}" alt="image" />
+                  <img src="{{asset('website/img/feature2.png')}}" alt="image" />
                   <h4>Variety of Services</h4>
                   <p>Ranging from makeup to beauty spa services and much more, we have them all</p>
                 </div>
               </div>
               <div class="col-md-4 col-lg-4 col-sm-12">
                 <div class="feature_box text-center">
-                  <img src="{{asset('public/website/img/feature3.png')}}" alt="image" />
+                  <img src="{{asset('website/img/feature3.png')}}" alt="image" />
                   <h4>Free Signup</h4>
                   <p>Sign up for free with three affordable packages based on your requirements</p>
                 </div>
@@ -137,7 +137,7 @@
             </div>
             <div class="col-md-6 col-lg-6 col-sm-12">
               <div class="work_videos d-flex justify-content-center align-items-center">
-                <a href=""><img src="{{asset('public/website/img/play_btn.png')}}" alt="image" /></a>
+                <a href=""><img src="{{asset('website/img/play_btn.png')}}" alt="image" /></a>
               </div>
             </div>
           </div>
@@ -157,32 +157,32 @@
             <div class="owl-carousel screen_slider owl-theme">
               <div class="item">
                 <div class="screen_box">
-                  <img class="w-100" src="{{asset('public/website/img/scrren1.png')}}" alt="image" />
+                  <img class="w-100" src="{{asset('website/img/scrren1.png')}}" alt="image" />
                 </div>
               </div>
               <div class="item">
                 <div class="screen_box">
-                  <img class="w-100" src="{{asset('public/website/img/screen2.png')}}" alt="image" />
+                  <img class="w-100" src="{{asset('website/img/screen2.png')}}" alt="image" />
                 </div>
               </div>
               <div class="item">
                 <div class="screen_box">
-                  <img class="w-100" src="{{asset('public/website/img/screen3.png')}}" alt="image" />
+                  <img class="w-100" src="{{asset('website/img/screen3.png')}}" alt="image" />
                 </div>
               </div>
               <div class="item">
                 <div class="screen_box">
-                  <img class="w-100" src="{{asset('public/website/img/screen4.png')}}" alt="image" />
+                  <img class="w-100" src="{{asset('website/img/screen4.png')}}" alt="image" />
                 </div>
               </div>
               <div class="item">
                 <div class="screen_box">
-                  <img class="w-100" src="{{asset('public/website/img/screen5.png')}}" alt="image" />
+                  <img class="w-100" src="{{asset('website/img/screen5.png')}}" alt="image" />
                 </div>
               </div>
               <div class="item">
                 <div class="screen_box">
-                  <img class="w-100" src="{{asset('public/website/img/screen6.png')}}" alt="image" />
+                  <img class="w-100" src="{{asset('website/img/screen6.png')}}" alt="image" />
                 </div>
               </div>
             </div>
@@ -217,7 +217,7 @@
             </div>
             <div class="col-md-6 col-lg-6 col-sm-12">
               <div class="launch_left text-center"> 
-                <img class="mb-4" src="{{asset('public/website/img/dark-square-icon.png')}}" alt="image" />
+                <img class="mb-4" src="{{asset('website/img/dark-square-icon.png')}}" alt="image" />
                 <div class="common_hd_wrap launch_hd text-center">
                   <h2 class="text-white">Launching Our App</h2>
                   <p class="mb-5">“We’re out to break the brick-and-mortar model and bring about a digital revolution. Your appointment is just a tap away! No more waiting in lines, and you’re welcome…”</p>
@@ -233,7 +233,7 @@
             </div>
             <div class="col-md-6 col-lg-6 col-sm-12">
               <div class="launch_img">
-                <img src="{{asset('public/website/img/launch_img.png')}}" alt="image"/>
+                <img src="{{asset('website/img/launch_img.png')}}" alt="image"/>
               </div>
             </div>
           </div>
@@ -386,9 +386,9 @@
   </body>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="{{asset('public/website/js/jquery-3.6.0.min.js')}}"></script>
-  <script src="{{asset('public/website/js/bootstrap.min.js')}}"></script>
-  <script src="{{asset('public/website/js/owl.carousel.min.js')}}"></script>
+  <script src="{{asset('website/js/jquery-3.6.0.min.js')}}"></script>
+  <script src="{{asset('website/js/bootstrap.min.js')}}"></script>
+  <script src="{{asset('website/js/owl.carousel.min.js')}}"></script>
   <!--<script src="{{asset('website/js/custom.js')}}"></script>-->
     
     <script>

@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use DB;
-
 use App\Main_category;
 use App\Subcategory;
 use Illuminate\Http\Request;

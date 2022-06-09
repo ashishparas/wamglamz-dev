@@ -89,12 +89,21 @@
                         <li><a href="{{url('admin/main-category')}}">Main Category</a></li>
                         <li><a href="{{url('admin/sub-category')}}">Sub Category Services</a></li>
                     </ul>
-                </li>
-                <li><a href="{{url('admin/payment-transaction')}}">
+
+
+                    </li>
+                <li><a href="{{url('/admin/wedding-package')}}">
                     <i class="flaticon-086-star"></i>
-                    <span class="nav-text">Payment Transaction </span>
+                    <span class="nav-text">Wedding packages</span>
                 </a>
             </li>
+                  
+                    </li>
+                    <li><a href="{{url('admin/payment-transaction')}}">
+                        <i class="flaticon-086-star"></i>
+                        <span class="nav-text">Payment Transaction </span>
+                    </a>
+                </li>
             
             <li><a href="{{url('admin/blogs')}}">
                     <i class="flaticon-381-list"></i>
