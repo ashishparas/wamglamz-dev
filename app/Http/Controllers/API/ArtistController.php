@@ -450,9 +450,16 @@ class ArtistController extends ApiController
             return $validateAttributes;
         endif;
         try{
-             $Mencategory = Main_category::where('slug','2')->with(['subCategory'])->get();
-            $Maincategory = Main_category::where('slug','1')->with(['subCategory'])->get();
-            return parent::success(['message' => 'Service added successfully', 'women' => $Maincategory,'men' => $Mencategory, 'base_url' => url('uploads/category')]); 
+
+            if(Auth::user()->type =='1'){
+                $Mencategory = Main_category::where('slug','2')->with(['subCategory'])->get();
+                $Maincategory = Main_category::where('slug','1')->with(['subCategory'])->get();
+            }else{
+                $Mencategory = Main_category::where('slug','2')->whereNotIn('title',['Wedding Package'])->with(['subCategory'])->get();
+                $Maincategory = Main_category::where('slug','1')->whereNotIn('title',['Wedding Package'])->with(['subCategory'])->get();
+            }
+                
+            return parent::success(['message' => 'Service view successfully', 'women' => $Maincategory,'men' => $Mencategory, 'base_url' => url('uploads/category')]); 
             
         }catch (\Exception $ex){
             return parent::error($ex->getMessage());
